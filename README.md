@@ -17,3 +17,4 @@ Example:
 ```
 SimpleCanvaChart('Gráfico de teste',div,data,color,500,500,[true,true]);
 ```
+![](https://github.com/manbomb/SimpleCanvaChart-JS/blob/master/prints.png)
