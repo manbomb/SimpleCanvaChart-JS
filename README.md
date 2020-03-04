@@ -15,6 +15,15 @@ SimpleCanvaChart(title,div,data,colors,height,width,type);
 
 Example:
 ```
-SimpleCanvaChart('Gráfico de teste',div,data,color,500,500,[true,true]);
+<script type="text/javascript" src="simplecanvachart.js"></script>
+<div id="div_chart"></div>
+<script type="text/javascript">
+	data = [[1,2.3,4,-5,7,8],[2,5.3,2,-1,2,3]];
+	color = ['red','blue'];
+
+	div = document.getElementById('div_chart');
+
+	SimpleCanvaChart('Gráfico de teste',div,data,color,500,500,[true,true]);
+</script>
 ```
 ![](https://github.com/manbomb/SimpleCanvaChart-JS/blob/master/prints.png)
